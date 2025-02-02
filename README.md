@@ -6,8 +6,6 @@
 2. 実験結果をもとにSparkで機械学習モデルを作成
 3. 深層学習(BERT)と精度と計算コストを比較
 
-
-
 ## 環境
 - **環境**: Windows11(ローカルマシン) 
   - **メモリ**: 16GB
@@ -15,7 +13,6 @@
   -  **GPU**: なし 
 - **言語**: Python 3.10.5
 - **主要ライブラリ**: `scikit-learn`, `MeCab`, `PySpark`, `Transformers(BERT)`
-
 
 ## フォルダ構成
 ```
@@ -28,6 +25,7 @@
 │   ├── tfidf_experiment.py ..... TF-IDFのトークナイザーの影響を確認
 │   └── tuning_experiment.py .... ロジスティック回帰の正則化パラメータのチューニング     
 ├── README.md
+├── requirements.txt
 ├── news_data.csv ............... ニュースデータ
 ├── bert.py ..................... BERTによるカテゴリ予測
 └── spark_logistc.py ............ 実験結果をもとに作成したメインモデル
