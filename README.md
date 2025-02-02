@@ -9,9 +9,13 @@
 
 
 ## 環境
-- **環境**: Windows11
+- **環境**: Windows11(ローカルマシン) 
+  - **メモリ**: 16GB
+  -  **CPU**: Ryzen7 5800u
+  -  **GPU**: なし 
 - **言語**: Python 3.10.5
-- **主要ライブラリ**: `scikit-learn`, `MeCab`, `PySpark`, `Transformers(BERT)` 
+- **主要ライブラリ**: `scikit-learn`, `MeCab`, `PySpark`, `Transformers(BERT)`
+
 
 ## フォルダ構成
 ```
